@@ -1,4 +1,12 @@
 @charset "UTF-8";
+
+@font-face { 
+    font-family: 'mainFont'; 
+    src: url('../fonts/Frutiger_ar.ttf'); 
+} 
+p,span,h1,h2,h3,h4,h5,a {
+    font-family: 'mainFont', sans-serif;
+}
 /* CSS Document */
 .hidden {
     display: none;
@@ -17,7 +25,7 @@
 
 .feature_home_2 h3 {
     font-size: 18px;
-    background: #07a7e3;
+    background: #0074C9;
     color: #fff;
     padding: 15px;
     cursor: pointer;
@@ -25,7 +33,7 @@
 }
 
 .feature_home_2 h3:hover {
-    background: #0074C9;
+    background: #07a7e3;
     border-radius: 5px;
 }
 
@@ -47,8 +55,11 @@
     padding: 0 25px 20px;
     border-bottom: 1px solid #949494;
 }
-.margin_40 {
-    margin-top: 40px
+.margin_20 {
+    margin-top: 20px
+}
+.padding_40 {
+    padding-top: 40px
 }
 .margin_50 {
     margin-top: 50px
