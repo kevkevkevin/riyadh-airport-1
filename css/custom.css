@@ -8,6 +8,14 @@ p,span,h1,h2,h3,h4,h5,a {
     font-family: 'mainFont', sans-serif;
 }
 /* CSS Document */
+.strip_booking h3.hotel_booking:before, .strip_booking h3.tours_booking:before, .strip_booking h3.transfers_booking:before {
+    
+    color: #0074c9 !important;
+}
+
+.tabs nav a:before {
+    color: #0074c9 !important;
+}
 #first__section {
     background: #fff;
 }
