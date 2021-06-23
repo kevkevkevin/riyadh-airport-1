@@ -15,7 +15,7 @@ p,span,h1,h2,h3,h4,h5,a {
 #first__section__1 {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 40px 0 50px;
+    padding: 40px 0 10px;
 }
 a.box_news figure img {
     width: 100% !important;
