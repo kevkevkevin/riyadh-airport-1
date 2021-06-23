@@ -1,3 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.fullscreen-container, .fullwidthbanner-container {
+    height: 750px !important;
+}

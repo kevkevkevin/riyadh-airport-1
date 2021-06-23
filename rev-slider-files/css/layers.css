@@ -18,7 +18,7 @@ website:   	http://www.themepunch.com
     opacity: 0.4;
     top: 0;
     left: 0;
-    background-color: #111;
+    /* background-color: #111; */
 }
 
 .tiny_bullet_slider .tp-bullet:before {
