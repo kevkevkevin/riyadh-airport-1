@@ -1,6 +1,60 @@
 @charset "UTF-8";
 /* CSS Document */
-
+.hidden {
+    display: none;
+}
+.show {
+    display: block;
+}
 .fullscreen-container, .fullwidthbanner-container {
-    height: 750px !important;
+    height: 575px !important;
+}
+
+.feature_home_2 {
+    width: 750px;
+    margin: 0 auto 90px;
+}
+
+.feature_home_2 h3 {
+    font-size: 18px;
+    background: #07a7e3;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ;
+}
+
+.feature_home_2 h3:hover {
+    background: #0074C9;
+    border-radius: 5px;
+}
+
+#element_2 {
+    background: #fdfdfd !important; 
+    box-shadow: 5px 5px 47px rgba(0, 0, 0, 0.1)  ; 
+    -webkit-box-shadow: 5px 5px 47px rgba(0, 0, 0, 0.1)  ; 
+    -moz-box-shadow: 5px 5px 47px rgba(0, 0, 0, 0.1)  ; 
+    padding: 50px;
+    height: 100% !important;
+    max-height: 100%;
+}
+
+#element_2 p {
+    font-weight: 900;
+}
+
+.border_bttm {
+    padding: 0 25px 20px;
+    border-bottom: 1px solid #949494;
+}
+.margin_40 {
+    margin-top: 40px
+}
+.margin_50 {
+    margin-top: 50px
+}
+@media only screen and (max-width: 1100px) {
+	.feature_home_2 {
+        width: 100%;
+    }
 }
