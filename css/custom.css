@@ -58,3 +58,9 @@
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 800px) {
+	div#slide-411-layer-03 {
+        display: none;
+    }
+}
