@@ -1,7 +1,9 @@
 
 const faq_btn = document.getElementById("faqBtn");
-const element1 = document.getElementById("element_1")
-const element2 = document.getElementById("element_2")
+const element1 = document.getElementById("element_1");
+const element2 = document.getElementById("element_2");
+
+
 
 const faqToggle = function () {
     element1.classList.add("hidden");

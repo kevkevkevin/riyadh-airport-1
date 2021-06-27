@@ -104,6 +104,18 @@ a.box_news h4 {
     width: 100%;
 }
 
+header.sticky a#white_ {
+    display: none !important;
+}
+
+header a#black_ {
+    display: none;
+}
+
+header.sticky a#black_ {
+    display: block;
+}
+
 @media only screen and (max-width: 1100px) {
 	.feature_home_2 {
         width: 100%;
